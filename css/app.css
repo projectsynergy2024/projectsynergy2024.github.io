@@ -1,0 +1,121 @@
+/* CSS styles for the header */
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: lightskyblue;
+    margin: 0;
+    font-size: 48px;
+    
+}
+
+p {
+    font-size: 24px;
+    margin: 10px;
+    color: lightskyblue;
+}
+
+body{
+    background: linear-gradient(to left, #00a2ff, #002fff);
+}
+
+
+/* Styles for the navigation bar */
+.navbar {
+    background-color: #000000; /* Sky blue */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Styles for the navigation links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: lightskyblue; /* Ocean blue */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #008cff; /* Black */
+}
+
+
+/* Styles for the description section */
+.description {
+    background-color: #fff;
+    text-align: left;
+    padding: 20px 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    line-height: 1.4;
+}
+
+.description .description-container {
+    max-width: 600px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.description h2 {
+    color: #333;
+}
+
+.description p {
+    color: #666;
+}
+
+.description img {
+    width: 600px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 800px; /* Add space between paragraph and image */
+}
+
+
+/*
+.button-container {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    background: linear-gradient(to right, #00a2ff, #002fff);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background 1s ease;
+    align-items: center;
+}
+
+
+button:hover {
+    background: linear-gradient(to right, #0381ca, #0023be);
+}
+*/
+
+
+footer{
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}

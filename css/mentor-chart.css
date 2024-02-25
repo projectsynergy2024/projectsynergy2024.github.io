@@ -1,0 +1,92 @@
+/* CSS styles for the header */
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: lightskyblue;
+    margin: 0;
+    font-size: 24px;
+}
+
+
+p {
+    margin: 0;
+}
+
+body{
+    background: linear-gradient(to right, #00a2ff, #002fff);
+}
+
+/* Styles for the navigation bar */
+.navbar {
+    background-color: #000000; /* Sky blue */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Styles for the navigation links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: lightskyblue; /* Ocean blue */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #008cff; /* Black */
+}
+
+/* Styles for the table container */
+.table-container {
+    overflow-x: auto; /* Enable horizontal scrolling for large tables */
+}
+
+/* Styles for the table */
+table {
+    width: 100%; /* Make the table fill its container */
+    border-collapse: collapse; /* Collapse border spacing */
+}
+
+/* Styles for table header */
+th {
+    background-color: #f2f2f2; /* Gray background */
+    border: 1px solid #ddd; /* Border */
+    padding: 8px; /* Padding */
+    text-align: left; /* Text alignment */
+}
+
+/* Styles for table cells */
+td {
+    border: 1px solid #ddd; /* Border */
+    padding: 8px; /* Padding */
+    text-align: left; /* Text alignment */
+}
+
+/* Alternate row background color */
+tbody tr:nth-child(even) {
+    background-color: #bebebe; /* Light gray background */
+}
+tbody tr:nth-child(odd) {
+    background-color: #ffffff; /* Light gray background */
+}
+
+
+footer{
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
