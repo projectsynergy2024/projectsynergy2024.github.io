@@ -1,3 +1,3 @@
 function accessMentorChart() {
-    window.location.href = "access-mentor-chart.html";
+    window.location.href = "mentor-chart.html";
 }
